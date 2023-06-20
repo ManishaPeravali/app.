@@ -23,6 +23,6 @@ app.use("/", userRoute);
 app.use("/", postRoute);
 app.use("/", fileRoute);
 
-app.listen(4000, () => {
-  console.log("Terminal started at port 4000");
+app.listen(5000, () => {
+  console.log("Terminal started at port 5000");
 });
